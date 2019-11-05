@@ -1,0 +1,112 @@
+@media screen and (max-width: 1600px) {
+	.wrapper{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 1200px) {
+	header{
+	background: url(img/fon3.png);
+}
+.wrapper{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.head_flex{
+	display: block;
+	}
+	.infection ul{
+	grid-template-columns: 1fr 1fr;
+}
+.argument ul{
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 20px;
+}
+.infection_li3{
+	margin-top: 130px;
+	grid-column: 1/3;
+}
+.li_content1{
+	width: 100%;
+	grid-column: 1/3;
+}
+.reason li{
+	padding: 20px 15px 30px 15px;
+}
+}
+@media screen and (max-width: 960px) {
+	.conc_flex{
+	display: block;
+}
+}
+@media screen and (max-width: 800px) {
+	.right_head{
+		display: block;
+	}
+	.infection ul{
+	display: block;
+}
+.argument ul{
+	display: block;
+}
+.argument ul li{
+	margin-bottom: 20px;
+}
+.reason ul{
+	display: block;
+}
+.reason ul li{
+	margin-bottom: 20px;
+}
+.argument_content{
+	padding: 10px 20px;
+}
+.infection_li3{
+	margin-top: 0;
+	}
+	.infection_content{
+	padding: 10px 15px;
+}
+}
+@media screen and (max-width: 325px) {
+	.wrapper{
+		width: 94%;
+		margin: 0 auto;
+	}
+	.recomend_head{
+	display: block;
+}
+body{
+	font-size: 14px;
+}
+.head_txt h1 {
+    font-size: 20px;
+}
+.head_txt h1 span {
+    font-size: 24px;
+}
+
+.card {
+    display: block;
+}
+.argument h2 {
+    font-size: 28px;
+}
+.reason h2 {
+    font-size: 28px;
+}
+.conclusion h2 {
+    font-size: 28px;
+}
+.infection h2 {
+    font-size: 28px;
+
+}
+.infection h3 {
+    font-size: 18px;
+}
+.conc_left img{
+	width: 308px;
+	height: 287px;
+}
+}
